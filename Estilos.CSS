@@ -1,0 +1,32 @@
+div {
+    font-size: 20px;
+}
+
+.caja-1,
+.caja-2, 
+.caja-3 {
+    display: inline-block;
+    
+    /* width: 100px; 
+    height: 200px; */
+    background-color: rgb(50, 218, 106);
+    
+    
+}
+.caja-2{
+    display: none;
+/* 
+    margin: 20px 50px 90px 50px; */
+   /* float: right; */
+    
+}
+
+.cajita{
+    font-size: 2em;
+    width: 50%; 
+    height: 50%;
+    background-color: rgb(43, 189, 226);
+    border: 5px groove rgb(92, 206, 143);
+    border-top-left-radius: 50%;
+    
+}
