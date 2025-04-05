@@ -1,0 +1,40 @@
+
+p {
+  color: rgb(255, 0, 242);
+}
+
+#titulo {
+  font-size: 24px;
+  color: red; 
+}
+
+.resaltado {
+  font-weight: bold;
+}
+
+li, p {
+  text-align: center;
+}
+
+input[type="text"] {
+  border: 2px solid rgb(201, 18, 18);
+  padding: 5px;
+  width: 200px;
+  font-size: 16px;
+}
+
+* {
+  cursor: grab;
+}
+
+div > p {
+  color: rgba(255, 81, 0, 0.945);
+}
+
+li + li {
+  color: rgb(235, 27, 190);
+}
+
+li.destacado ~ li {
+  font-weight: bold;
+  color:green

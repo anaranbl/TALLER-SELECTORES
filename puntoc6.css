@@ -1,0 +1,5 @@
+span > p {
+    color: red;
+}
+
+/* span > p selecciona solo el <p> que es hijo directo de un <span>. */
